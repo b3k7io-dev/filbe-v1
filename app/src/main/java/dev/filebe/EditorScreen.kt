@@ -26,13 +26,11 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.OffsetMapping
 import androidx.compose.ui.text.input.TextFieldValue
-import androidx.compose.ui.text.input.TextRange
+import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.TransformedText
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.text.TextRange
-
 
 class SyntaxTransformation(private val name: String) : VisualTransformation {
     override fun filter(text: AnnotatedString): TransformedText {
