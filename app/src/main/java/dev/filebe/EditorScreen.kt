@@ -31,6 +31,8 @@ import androidx.compose.ui.text.input.TransformedText
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.TextRange
+
 
 class SyntaxTransformation(private val name: String) : VisualTransformation {
     override fun filter(text: AnnotatedString): TransformedText {
